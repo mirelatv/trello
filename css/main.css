@@ -2,14 +2,14 @@
  body{
   margin: 0;
   padding: 0;
-  background-color: #AED6F1 ;
+  background-color: #0AB0BD ;
   font-size: 20px;
   font-weight: 300;
   line-height: 1.5;
   outline-color:black;
 }
 .part1{
-  background-color: #A9CCE3;
+  background-color: #068E99 ;
    height: 2em;
    left: 0;
    padding: 1em .75em;
@@ -56,11 +56,10 @@ display: inline-block;
 /* js*/
 
 .div{
- background-color: white;
+ background-color:#EAF2F8;
  width: 400px;
- height: 100px;
- border-radius: 80px;
- text-align: center;
+ height: 200px;
+  text-align: center;
   margin-top: 200px;
   margin-left: 80px;
 }
@@ -72,41 +71,58 @@ display: inline-block;
   height: 40px;
   text-align: center;
 
+
 }
 .button{
   display: block;
   background-color: #82E0AA;
   width: 70px;
   height: 20px;
-  margin-top: 11px;
+  margin-top: 100px;
   margin-left: 178px;
-
 
 }
 .bx{
- background-color: white;
+ background-color:#EAF2F8;
  width: 400px;
- height: 100px;
- border-radius: 80px;
+ height: 200px;
  text-align: center;
-  margin-top: -100px;
-  margin-left: 550px;
+  margin-top: -200px;
+  margin-left: 700px;
 }
 .link{
-  color:blue;
+  color:black;
   display: block;
-  background-color: white;
-  width: 100px;
-  height: 40px;
+  background-color:#EAF2F8;
+  width: 200px;
+  height: 30px;
   padding: 5px;
-  margin-top: 11px;
-  margin-left: 178px;
-  border-color: white;
+  margin-top: 70px;
+  margin-left: 100px;
+  border-style: none;
 }
 
 .childText{
-  background-color: #D5F5E3;
+  background-color: #F2F4F4;
   width: 360px;
   border-radius: 30px;
   margin-top: 20px;
+}
+.parrf{
+  display: inline-block;
+  text-align: center;
+  background-color: #F2F4F4;
+  border-radius: 20px;
+  width: 300px;
+  height: 40px;
+  outline-color: red;
+}
+.lis{
+  display:inline-block;
+  background-color: #F2F4F4;
+  line-height: 2px;
+}
+
+input:focus{
+  background-color: #E6E1DC;
 }
